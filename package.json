@@ -1,0 +1,24 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "1. Create a \"server.js\" file\r 2. Create a package.json with \"npm init -y\"\r 3. Run \"npm install express\".  Confirm by seeing node_modules folder and package-lock.json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkriengsiri/express-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkriengsiri/express-starter/issues"
+  },
+  "homepage": "https://github.com/pkriengsiri/express-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
