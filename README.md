@@ -8,9 +8,16 @@
 ## Build the server
 1. Require express
 2. Create an instance of express
-3. Create a port to listen on
+3. Create a port to listen on (if deploying to Heroku, use process.env.PORT as an option)
 4. Listen on the port
-5. Add Routes
+5. Add middleware.  This sets up express to parse the request body
+```
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+```
+6. Add routes
 
 ## Start the server
 Your package.json should have a start script.  You can run it by executing "npm start" in the terminal.
+
+## Deploying your server to Heroku
